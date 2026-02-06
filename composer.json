@@ -1,0 +1,28 @@
+{
+    "name": "sjohnson/demo",
+    "authors": [
+        {
+            "name": "Scott Johnson",
+            "email": "lorem.t.ipsum@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/collections": "^12.50",
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Http\\": "Http/",
+            "Core\\": "Core/",
+            "Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "pestphp/pest": "^4.3"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}

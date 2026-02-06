@@ -1,0 +1,11 @@
+html {
+    background-color: oklch(21% 0.034 264.665);
+}
+
+main {
+    color: white;
+}
+
+::placeholder {
+    color: oklch(39.042% 0.00004 271.152);
+}
